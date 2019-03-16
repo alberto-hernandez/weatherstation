@@ -1,0 +1,118 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .weatherstation-table {
+	font-family: Helvetica, Arial, "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.weatherstation-row {
+}
+
+.weatherstation-row .bft {
+	font-size: 80%;
+}
+
+.weatherstation-row .orientation {
+	position : relative;
+	text-align: center;
+	font-weight: bold;
+}
+
+.weatherstation-row .temperature {
+	text-align: right;
+}
+
+.direction-n    {  background-position: left 0px; }
+.direction-nne  {  background-position: left -16px; }
+.direction-ne   {  background-position: left -32px; }
+.direction-ene  {  background-position: left -48px; }
+.direction-e    {  background-position: left -64px; }
+.direction-ese  {  background-position: left -80px; }
+.direction-se   {  background-position: left -96px; }
+.direction-sse  {  background-position: left -112px; }
+.direction-s    {  background-position: left -128px; }
+.direction-sso  {  background-position: left -144px; }
+.direction-so   {  background-position: left -160px; }
+.direction-oso  {  background-position: left -176px; }
+.direction-o    {  background-position: left -192px; }
+.direction-ono  {  background-position: left -208px; }
+.direction-no   {  background-position: left -224px; }
+.direction-nno  {  background-position: left -240px; }
+
+
+.weatherstation-table .direction {
+	background-image: url("../assets/directions.png");
+	width: 16px;
+	height: 16px;
+    display: inline-block;
+    background-size: 16px 256px;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-bottom: -1px;
+	position: absolute;
+	top: 2px;
+	right: 0px;
+}
+
+
+.knt1, .knt2, .knt3, .knt4, .knt5, .knt6, .knt7, .knt8, .knt9, .knt10 { background-color: #white; }
+
+
+/* 4bft */
+.knt11, .knt12, .knt13, .knt14, .knt15, .knt16 { background-color: #f3ffd8; }
+
+/* 5bft */
+.knt17 { background-color: #c8eaff; }
+.knt18 { background-color: #bae5ff; }
+.knt19 { background-color: #ade0ff; }
+.knt20 { background-color: #a1dbff; }
+.knt21 { background-color: #94d6ff; }
+
+
+/* 6 bft */
+.knt22 { background-color: #ffe599; }
+.knt23 { background-color: #ffdf80; }
+.knt24 { background-color: #ffd966; }
+.knt25 { background-color: #ffd24c; }
+.knt26 { background-color: #ffcc33; }
+.knt27 { background-color: #ffc61a; }
+
+
+/* 7 bft */
+.knt28 { background-color: #ffc999 !important; }
+.knt29 { background-color: #ffbb7f !important; }
+.knt30 { background-color: #ffad66 !important; }
+.knt31 { background-color: #ffa04c !important; }
+.knt32 { background-color: #ff9233 !important; }
+.knt33 { background-color: #ff851a !important; }
+
+/* 8bft */
+.knt34 { background-color: #ff410e !important; color: white !important; }
+.knt35 { background-color: #f51f03 !important; }
+.knt36 { background-color: #f50c38 !important; }
+.knt37 { background-color: #e2143a !important; }
+.knt38 { background-color: #ce1235 !important; }
+.knt39 { background-color: #b0003e !important; }
+.knt40 { background-color: #ff01de !important; }
+.knt41 { background-color: #ea04ff !important; }
+
+.bft7 {
+	background-color: #ffa95d;
+}
+
+.bft8 {
+	background-color: #ee5c15;
+	color: white;
+}
+
+.bft9 { 
+	background-color: #bc03cd;
+	color: white;
+}
+
+.bft10 {
+	background-color: #6d0500;
+	color: white;
+}
